@@ -1,0 +1,56 @@
+Date GitLab Tutorials were completed: 10/23/25
+Date GitHub account was setup: 8/24/2023
+
+(Question 1):
+
+    Enumerating objects: 6, done.
+    Counting objects: 100% (6/6), done.
+    Delta compression using up to 12 threads
+    Compressing objects: 100% (3/3), done.
+    Writing objects: 100% (4/4), 361 bytes | 361.00 KiB/s, done.
+    Total 4 (delta 1), reused 1 (delta 0), pack-reused 0 (from 0)
+    remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+    To https://github.com/EliahHooks/assignment2.git
+    a60e33e..0c4a973  master -> master
+
+(Question 2):
+
+    9 commits
+    git rev-list --all --count
+
+(Question 3):
+
+    Date:   Thu Oct 23 12:45:38 2025 -0500
+    git log -1 -- README.md
+
+(Question 4):
+
+    Branches are used in a git repository 1)so that work can be done on a feature while not affecting the main code and 2)because
+    it allows multiple people to work on the same project simultaneously.
+
+(Question 5):
+
+    git log lists the comment history of each branch while git status displays the status of your working directory.
+
+(Question 6):
+
+    git log -- Vehicle.h
+
+(Question 7):
+    git log --grep="file"
+
+(Question 8):
+
+    I: Inheritance is an OOP principle that states that allows a subclass to inherit the properties and functions of the parent class.
+    II: Polymorphism is an OOP principle that allows objects of different classes to be treated as objects of a common superclass.
+    III: Encapsulation is an OOP principle that allows bundling the attributes and functions that operate on the data into a single unit. 
+
+(Question 9):
+    The main difference in the two workflows is the way the code is integrated. In the integration manager workflow, the integration
+    manager makes the final decisions while in the "Dictator and Lieutenants” workflow the dictator integrates the changes from the
+    lieutenants.
+
+(Question 10):
+
+    A team of 100 developers would benefit from the "Dictator and Lieutenants” workflow instead of the “Centralized” workflow by increasing the efficiency.
+    The "Dictator and Lieutenants” workflow would make the process more organized and reduce potential conflicts.
